@@ -8,7 +8,11 @@
 extern MixHazel::Application *MixHazel::CreateApplication();
 
 int main(int argc, char **argv) {
-    printf("MixHazel Engine Running!\n");
+    MixHazel::Log::Init();
+    MHZ_CORE_WARN("Initialized Log!");
+    int a = 42;
+    MHZ_INFO("HELLo!! {0}", a);
+
     auto app = MixHazel::CreateApplication();
     app->Run();
     delete app;

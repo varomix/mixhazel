@@ -3,4 +3,5 @@ project(mixhazel_engine)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(mixhazel_engine SHARED Hazel/Core.h Hazel/Application.cpp Hazel/Application.h MixHazel.h Hazel/EntryPoint.h)
+include_directories(vendor/spdlog/include)
+add_library(mixhazel_engine SHARED Hazel/Core.h Hazel/Application.cpp Hazel/Application.h MixHazel.h Hazel/EntryPoint.h Hazel/Log.cpp Hazel/Log.h)
