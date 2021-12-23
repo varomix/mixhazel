@@ -103,3 +103,15 @@ fabric.properties
 # CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
+/sandbox/.idea/
+/mixhazel_engine/.idea/
+.idea/misc.xml
+.idea/mixhazel.iml
+.idea/modules.xml
+.idea/saveactions_settings.xml
+.idea/vcs.xml
+mixhazel_engine/.idea/misc.xml
+mixhazel_engine/.idea/mixhazel_engine.iml
+mixhazel_engine/.idea/modules.xml
+mixhazel_engine/.idea/saveactions_settings.xml
+mixhazel_engine/.idea/vcs.xml
